@@ -1,10 +1,10 @@
 <script>
 import AppTitle from './components/AppTitle.vue';
-import Jumbo from './components/Jumbo.vue'
+import AppHero from './components/AppHero.vue'
 export default {
   components: {
     AppTitle,
-    Jumbo,
+    AppHero,
   }
 
 }
@@ -12,7 +12,7 @@ export default {
 
 <template>
   <AppTitle></AppTitle>
-  <Jumbo></Jumbo>
+  <AppHero></AppHero>
 
 </template>
 
